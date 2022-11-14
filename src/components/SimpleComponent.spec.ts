@@ -1,3 +1,4 @@
+import { describe, it, expect, afterEach } from "vitest";
 import { cleanup, render, screen } from "@testing-library/vue";
 import SimpleComponent from "./SimpleComonent.vue";
 import userEvent from "@testing-library/user-event";
